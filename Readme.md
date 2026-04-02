@@ -40,4 +40,4 @@ SVR/
 | 7  | tire          |
 
 ## Notes
-In our cross-modal image retrieval task, the default setting takes sonar images as queries and visible images as the gallery. The dataset split only provides the division of training, validation, and test sets. In the dataset, sonar images are named starting with "son", while visible (optical) images are named starting with "opt". You can flexibly switch between query and gallery according to your own needs.
+In our cross-modal image retrieval task, the default setting takes sonar images as queries and visible images as the gallery. The dataset split provides the division of training, validation, and test sets. In the dataset, sonar images are named starting with "son", while visible (optical) images are named starting with "opt". You can flexibly switch between query and gallery according to your own needs.
