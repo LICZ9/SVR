@@ -12,14 +12,14 @@ This repository contains the **SVR** dataset for Cross-Modal Image Retrieval Tas
 ```
 SVR/
 ├── Images/
-│   ├── auv/
+│   ├── block/
 │   ├── circle_cage/
-│   ├── cube/
 │   ├── pot/
 │   ├── square_cage/
 │   ├── steel_frame/
 │   ├── steel_plate/
-│   └── tire/
+│   ├── tire/
+│   └── underwater_robot/
 ├── Splits/
 │   ├── 20_Splits/
 │   ├── 50_Splits/
@@ -28,16 +28,16 @@ SVR/
 
 ## Categories
 
-| ID | Category      |
-|----|---------------|
-| 0  | auv           |
-| 1  | circle_cage   |
-| 2  | cube          |
-| 3  | pot           |
-| 4  | square_cage   |
-| 5  | steel_frame   |
-| 6  | steel_plate   |
-| 7  | tire          |
+| ID | Category         |
+|----|------------------|
+| 0  | block            |
+| 1  | circle_cage      |
+| 2  | pot              |
+| 3  | square_cage      |
+| 4  | steel_frame      |
+| 5  | steel_plate      |
+| 6  | tire             |
+| 7  | underwater_robot |
 
 ## Notes
-In our cross-modal image retrieval task, the default setting takes sonar images as queries and visible images as the gallery. The dataset split provides the division of training, validation, and test sets. In the dataset, sonar images are named starting with "son", while visible (optical) images are named starting with "opt". You can flexibly switch between query and gallery according to your own needs.
+In our cross-modal image retrieval task, the default setting takes sonar images as queries and visible images as the gallery. The dataset split only provides the division of training, validation, and test sets. In the dataset, sonar images are named starting with "son", while visible (optical) images are named starting with "opt". You can flexibly switch between query and gallery according to your own needs.
